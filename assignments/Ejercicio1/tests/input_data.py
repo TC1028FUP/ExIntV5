@@ -4,16 +4,16 @@
 input_values = [
     # Test case 1
     (
-    ["gato", "perro", "jabali", "la ardilla", "oso", "-", 4],
-    ["Ingresa palabras o frases, para terminar de capturar ingresa -",">>> ", ">>> ", ">>> ", 
-    ">>> ", ">>> ", ">>> ", "['gato', 'perro', 'jabali', 'la ardilla', 'oso']", "Número de caracteres: ",
-    "['gato', 'oso']", "['perro', 'jabali', 'la ardilla']"],
+    ["gato", "perro", "jabali", "perico", "oso", "-", "p"],
+    ["Ingresa palabras, para terminar de capturar ingresa -",">>> ", ">>> ", ">>> ", 
+    ">>> ", ">>> ", ">>> ", "['gato', 'perro', 'jabali', 'perico', 'oso']", "Letra: ",
+    "['perro', 'perico']", "['gato', 'jabali', 'oso']"],
     ["La salida no cumple con el caso de prueba."]
     ),
     # Test case 2
     (
-    ["-", "-1"],
-    ["Ingresa palabras o frases, para terminar de capturar ingresa -",">>> ","[]","Número de caracteres: ","Error"],
-    ["Qué pasa si de entrada recibes un - y el número de caracteres es negativo o cero"]
+    ["-", "pe"],
+    ["Ingresa palabras, para terminar de capturar ingresa -",">>> ","[]","Letra: ","Error"],
+    ["Qué pasa si de entrada recibes un - y la letra no es un string de tamaño 1"]
     )
     ]
